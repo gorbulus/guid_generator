@@ -17,12 +17,6 @@ class GUID:
     def get_guid_params(myGUID):
         return print("Length of GUID is {} and the number of chunks is {}".format(myGUID.length, myGUID.chunks))
 
-    def get_guid_quantity():
-        guid_quantity = print(input("How many GUIDs would you like to generate?"))
-    return guid_quantity
-
-
-
 myGUID = GUID(32, 4)
 myGUID.get_guid_params()
 

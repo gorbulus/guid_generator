@@ -14,12 +14,9 @@ description:
 import random
 random.seed()
 
-def get_guid_quantity():
-    guid_quantity = print(input("How many GUIDs would you like to generate?"))
-    return guid_quantity
 
-guid_quantity = get_guid_quantity()
-print(guid_quantity)
+
+
 
 # guid_hex_generate()
 # returns a string of HEX_CHARS [0 - 9, a - f, A- F]
